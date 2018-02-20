@@ -3,8 +3,9 @@ import ShowtimeList from '../components/ShowtimeList';
 import ShowtimeButton from '../components/ShowtimeButton';
 
 class ShowtimesContainer extends Component {
-  constructor(props){
-  super(props);
+  constructor(){
+  super();
+
   this.state = {
     filmTimes: [
     {id: 1, icon: "+", filmName: "Coco", time: "15:00"},
